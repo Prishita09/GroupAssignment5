@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #800020; /* Burgundy background */
+    color: #FFF5E1; /* Cream text */
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background: url('bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #FFF5E1; /* Cream text */
+}
+
+/* Buttons */
+.btn-light {
+    background-color: #FFF5E1; /* Cream */
+    color: #800020; /* Burgundy text */
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-light:hover {
+    background-color: #FFDAB9; /* Lighter cream */
+    color: #660017; /* Darker burgundy */
+}
+
+/* Section Headings */
+h2.section-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #FFF5E1; /* Cream */
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Service Cards */
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #660017; /* Dark burgundy */
+    border: 2px solid #FFF5E1; /* Cream border */
+    color: #FFF5E1;
+    border: 2px solid #FFF5E1;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(255, 245, 225, 0.6);
+}
+
+.service-card img {
+    padding: 15px;
+}
+
+
+/* Call to Action Section */
+.cta-section {
+    background-color: #660017; /* Dark burgundy */
+    color: #FFF5E1;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* Rectangular Image with Soft Edges and Slight Shadow */
+.custom-rect-img {
+    width: 100%; /* Ensure it adapts to container */
+    height: 300px; /* Fixed height for a rectangular shape */
+    border-radius: 15px; /* Soft rounded corners (adjust as needed) */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Slight shadow below */
+    object-fit: cover; /* Ensures the image fills the rectangle without distortion */
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2.section-title:hover {
+    color: #FFDAB9; /* Lighter cream color on hover */
+    text-decoration: underline;
+}
+
+/* Override Bootstrap's bg-danger */
+header.bg-danger {
+    background-color: #e42525d4 !important; /* Burgundy background */
+    color: white !important; /* Cream text */
+    padding: 1.5rem 0; /* Add padding for spacing */
+  }
+  
+  header.bg-danger h1,
+  header.bg-danger p {
+    margin: 0.5rem 0; /* Add spacing between elements */
+  }
+  
+  header.bg-danger p strong {
+    color: white; /* Lighter cream for emphasis */
+  }
+  
+/* Align logo and title */
+.header {
+    display: flex !important; /* Use flexbox for alignment */
+    align-items: center !important; /* Vertically align items */
+    justify-content: center !important; /* Center content horizontally if needed */
+    gap: 10px; /* Add spacing between logo and title */
+}
+
+.header .logo {
+    height: 50px !important; /* Adjust logo height */
+    width: auto !important; /* Maintain aspect ratio */
+    margin-right: 10px !important; /* Add spacing if required */
+}
+
+.header .title {
+    font-size: 2rem !important; /* Adjust font size */
+    font-weight: bold !important;
+    margin: 0 !important;
+}
+

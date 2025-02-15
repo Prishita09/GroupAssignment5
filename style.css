@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #FFF5E1 ; /* Cream background */
+    color: #800020 ; /* Burgundy text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .custom-navbar {
+    background-color: #aa2c4b; /* Burgundy color */
+  }
+  
+  .navbar {
+    background-color: #7a0722; 
+  }
+  
+  .navbar .navbar-brand {
+    font-weight: bold;
+    color: #FFF5E1; /* Cream text */
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .navbar .container {
+    justify-content: center; /* Align content to the left */
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #e61243; 
+    border: none;
+  }
+  
+  .card-body {
+    color: #FFF5E1; 
+  }
+  
+  .card h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #FFF5E1;
+  }
+  
+  /* Form Inputs */
+  .form-control {
+    background-color: #FFF5E1; /* Cream background */
+    color: #800020; /* Burgundy text */
+    border: 2px solid #660017; /* Dark burgundy border */
+  }
+  
+  .form-control::placeholder {
+    color: #800020; /* Burgundy placeholder text */
+  }
+  
+  .form-control:focus {
+    border-color: #FFDAB9; /* Lighter cream border on focus */
+    box-shadow: none;
+  }
+  
+  /* Buttons */
+  .btn-danger {
+    background-color: #FFF5E1; /* Cream button background */
+    color: #800020; /* Burgundy text */
+    font-weight: bold;
+  }
+  
+  .btn-danger:hover {
+    background-color: #FFDAB9; /* Lighter cream on hover */
+    color: #660017; /* Darker burgundy text on hover */
+  }
+  
+  /* Links */
+  a {
+    color: #FFDAB9; /* Lighter cream for links */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Centering and Layout Adjustments */
+  .container {
+    max-width: 600px;
+    
+  }
+  
+  .row.justify-content-center {
+    margin-top: 50px;
+  }
+  
+  .text-center a {
+    display: inline-block;
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  /* Add background image to the login container */
+  body {
+    background-image: url('bg.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+
+  
