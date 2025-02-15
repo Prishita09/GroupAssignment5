@@ -54,6 +54,9 @@ This system provides a platform for:
    - `text-center`
    - `shadow`
    - `mx-auto`
+  
+ 7. Accordian(Faqs)
+ 8. Footer
 
   
 # Usage
