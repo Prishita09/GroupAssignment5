@@ -57,6 +57,10 @@ This system provides a platform for:
   
  7. Accordian(Faqs)
  8. Footer
+ 9. Typography (display-3, display-5, fw-bold, lead, text-center, section-title) for structured and visually appealing text styles.
+ 10. Progress Bars (progress, progress-bar, progress-bar-striped, progress-bar-animated, bg-success, bg-info) for displaying donation statistics.
+ 11. Spacing Utilities (mb-5, mb-4, mb-lg-0, py-5, mt-4) to ensure proper alignment and spacing of elements.
+ 12. Images (card-img-top) for styling images within cards.
 
   
 # Usage
